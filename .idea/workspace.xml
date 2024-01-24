@@ -4,33 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8479f7d3-d6bd-4ce1-b576-96eeaafeb6a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/MainStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/StartApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/controller/PersonEditDialogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/controller/PersonOverviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/controller/RootLayoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ch/makery/gui_try/css/DarkTheme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ch/makery/gui_try/images/address_book_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ch/makery/gui_try/view/PersonEditDialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ch/makery/gui_try/view/PersonOverview.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ch/makery/gui_try/view/RootLayout.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ch/makery/gui_try/view/hello-view.fxml" afterDir="false" />
+    <list default="true" id="8479f7d3-d6bd-4ce1-b576-96eeaafeb6a8" name="Changes" comment="First try with teacher make nonModul app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/controller/PersonOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/makery/gui_try/controller/PersonOverviewController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v0.0.1-WithoutMavenShadenPlugin" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -58,34 +41,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Krapivin2021/IdeaProjects/GUI_Try/src/main/resources/ch/makery/gui_try&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Krapivin2021/IdeaProjects/GUI_Try/src/main/resources/ch/makery/gui_try/PersonOverview.fxml&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "v0.0.2-TrySomeGSONShUt",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_directory_selection": "C:/Users/Krapivin2021/IdeaProjects/GUI_Try/src/main/resources/ch/makery/gui_try",
+    "last_opened_file_path": "C:/Users/Krapivin2021/IdeaProjects/GUI_Try/src/main/resources/ch/makery/gui_try/PersonOverview.fxml",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Krapivin2021\IdeaProjects\GUI_Try\src\main\resources" />
       <recent name="C:\Users\Krapivin2021\IdeaProjects\GUI_Try\src\main\resources\ch\makery\gui_try\images" />
       <recent name="C:\Users\Krapivin2021\IdeaProjects\GUI_Try\src\main\resources\ch\makery\gui_try" />
-      <recent name="C:\Users\Krapivin2021\IdeaProjects\GUI_Try\src\main\resources" />
       <recent name="C:\Users\Krapivin2021\IdeaProjects\GUI_Try\src\main\resources\ch\makery\gui_try\view" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -145,11 +128,28 @@
       <workItem from="1705491170845" duration="6688000" />
       <workItem from="1705653060334" duration="658000" />
       <workItem from="1705653737237" duration="1867000" />
-      <workItem from="1706090633370" duration="1264000" />
+      <workItem from="1706090633370" duration="10516000" />
     </task>
+    <task id="LOCAL-00001" summary="First try with teacher make nonModul app">
+      <option name="closed" value="true" />
+      <created>1706092146685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706092146685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First try with teacher make nonModul app" />
+    <option name="LAST_COMMIT_MESSAGE" value="First try with teacher make nonModul app" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
