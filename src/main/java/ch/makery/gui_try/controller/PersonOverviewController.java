@@ -53,6 +53,7 @@ public class PersonOverviewController {
      * Вызывается, когда пользователь кликает по кнопка Edit...
      * Открывает диалоговое окно для изменения выбранного адресата.
      */
+
     @FXML
     private void handleEditPerson() {
         Person selectedPerson = personTable.getSelectionModel().getSelectedItem();
