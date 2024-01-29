@@ -17,8 +17,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.*;
-import java.util.Objects;
-
+import java.util.Scanner;
 
 
 public class MainApp  extends Application  {
@@ -53,41 +52,37 @@ public class MainApp  extends Application  {
 
     @Override
     public void start(Stage primaryStage) {
-       Gson gson = new GsonBuilder().create();
+        GsonBuilder builder = new GsonBuilder();
+        Gson gson = new GsonBuilder().create();
+
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("AddressApp");
         this.primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("images/address_book_icon.png")));
 
         initRootLayout();
-
         showPersonOverview();
 
-        //Чтение GSON
-        try
-        {
-            FileReader person = new FileReader("./PersonInfo.txt");
-        }
+            //Чтение GSON
+        try {
 
-        catch (IOException ex){
+            FileReader person = new FileReader("./PersonInfo.txt");
+            Scanner scanner = new Scanner(person);
+            while (scanner.hasNext()) {
+                personData.add(fromJson(scanner.nextLine())); // Жалуется что нет метода.
+            }
+            personData.forEach(System.out::println);
+        } catch (FileNotFoundException ex) {
             System.out.println(ex.getMessage());
         }
 
-        //Запись GSON
-        try{ File fileForJson = new File("./PersonInfo.txt");
-            if (!fileForJson.exists())
-                fileForJson.createNewFile();
-            FileWriter fw;
-            fw = new FileWriter(fileForJson);
 
-            fw.write(gson.toJson(personData));
-            fw.close();
-            System.out.println("Запись в GSON завершена.");
-        } catch (IOException e) {
-            e.printStackTrace();
-        };
 
     }
 
+
+    public void stop () {
+
+    }
 
 
     /**
@@ -173,4 +168,6 @@ public class MainApp  extends Application  {
     public static void main(String[] args) {
         launch(args);
     }
+
+
 }
