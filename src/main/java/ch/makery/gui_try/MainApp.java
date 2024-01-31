@@ -3,6 +3,8 @@ package ch.makery.gui_try;
 import ch.makery.gui_try.controller.PersonEditDialogController;
 import ch.makery.gui_try.controller.PersonOverviewController;
 import ch.makery.gui_try.model.Person;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -14,20 +16,20 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-import java.util.Objects;
+import java.io.*;
+import java.util.Scanner;
 
-public class MainApp extends Application {
 
-    /**
-     * Данные, в виде наблюдаемого списка адресатов.
-     */
+public class MainApp  extends Application  {
+
+    // Данные, в виде наблюдаемого списка адресатов.
     private ObservableList<Person> personData = FXCollections.observableArrayList();
 
-    /**
-     * Конструктор
-     */
+
+    //Конструктор
+
     public MainApp() {
+
         // В качестве образца добавляем некоторые данные
         personData.add(new Person("Владислав","Бас"));
         personData.add(new Person("Евгений","Березуев"));
@@ -39,10 +41,8 @@ public class MainApp extends Application {
         personData.add(new Person("Артур","Сарян"));
         personData.add(new Person("Вадим","Федоров"));
     }
-    /**
-     * Возвращает данные в виде наблюдаемого списка адресатов.
-     * @return
-     */
+    //Возвращает данные в виде наблюдаемого списка адресатов. @return
+
     public ObservableList<Person> getPersonData() {
         return personData;
     }
@@ -52,15 +52,23 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        GsonBuilder builder = new GsonBuilder();
+        Gson gson = new GsonBuilder().create();
+
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("AddressApp");
-
         this.primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("images/address_book_icon.png")));
 
         initRootLayout();
-
         showPersonOverview();
+
     }
+
+
+    public void stop () {
+
+    }
+
 
     /**
      * Инициализирует корневой макет.
@@ -145,4 +153,6 @@ public class MainApp extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+
 }
