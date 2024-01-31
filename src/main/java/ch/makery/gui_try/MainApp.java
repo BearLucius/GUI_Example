@@ -62,21 +62,6 @@ public class MainApp  extends Application  {
         initRootLayout();
         showPersonOverview();
 
-            //Чтение GSON
-        try {
-
-            FileReader person = new FileReader("./PersonInfo.txt");
-            Scanner scanner = new Scanner(person);
-            while (scanner.hasNext()) {
-                personData.add(fromJson(scanner.nextLine())); // Жалуется что нет метода.
-            }
-            personData.forEach(System.out::println);
-        } catch (FileNotFoundException ex) {
-            System.out.println(ex.getMessage());
-        }
-
-
-
     }
 
 
